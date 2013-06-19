@@ -1,8 +1,10 @@
 ﻿ 
-Difference
- is used to find difference between  2 objects of same class. 
+Difference is used to find difference between  2 objects of same class. 
+
+
 Usage
 1. Paste this line in your Gemfile
+
              gem 'difference'
 
 2. This will give your active record objects a method called 'differs_from'. This is how you use.
@@ -14,14 +16,15 @@ Eg.
               b=Foo.find 3 
 
             Now you can use, 
-                                  a.differs_from b 
+            a.differs_from b 
 
-               will return a hash like    {:attr1=>[<value of attr1 in a>,<value of attr1 in b>], 				         :attr2=>[<value of attr2 in a>,<value of attr2 in b>]}   if both values are different in a and b.
+            will return a hash like    {:attr1=>[<value of attr1 in a>,<value of attr1 in b>], :attr2=>[<value of attr2 in a>,<value of attr2 in b>]}   if both values are different in a and b.
              
-              Options for differs_from:
+Options for differs_from:
 1. ignore_attributes: this options helps to ignore attributes from the AR objects while comparison.
 Eg:
 a.differs_from b, :ignore_attributes=>['id', 'created_at']
+
 2. only_attribues: this options helps to compare only the specified attributes.
 a.differs_from b :only_attributes=> :name
 
