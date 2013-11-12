@@ -30,8 +30,11 @@ Options for differs_from:
              a.differs_from b :only_attributes=> :name
 
 
-TODO:
-#specs
+Tests
+This repo uses very lightweight test-suite 'minitest'
+To run tests:
+1. $ bundle install #at root
+2. $ ruby test/test_difference.rb
 
 
 License
