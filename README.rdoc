@@ -1,7 +1,10 @@
 ﻿ 
-Difference is used to find difference between  2 objects of same class. 
+Difference is used to find difference between 2 objects of same class. 
 
 {<img src="https://badge.fury.io/rb/difference.png" alt="Gem Version" />}[http://badge.fury.io/rb/difference]
+{<img src="https://travis-ci.org/gouravtiwari/difference.png?branch=master" alt="Build Status" />}[https://travis-ci.org/gouravtiwari/difference]
+
+Supported versions Ruby 1.9.3+
 
 Usage
 1. Paste this line in your Gemfile
