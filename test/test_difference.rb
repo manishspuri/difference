@@ -11,7 +11,7 @@ class FakeUser < ActiveRecord::Base
   end
 end
 
-class TestDifference < MiniTest::Unit::TestCase
+class TestDifference < MiniTest::Test
   def setup
     @john = FakeUser.create(:name => 'john', :address => 'NYC')
     @smith = FakeUser.create(:name => 'smith', :address => 'NYC')
