@@ -1,4 +1,4 @@
 source "http://rubygems.org"
 
-gem 'activerecord'
+gemspec
 

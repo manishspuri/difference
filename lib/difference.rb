@@ -1,5 +1,3 @@
-require "difference/version"
-
 module Difference
    class ActiveRecord::Base
 	   def differs_from(object,opt={})

@@ -1,0 +1,9 @@
+language: ruby
+rvm:
+  - "2.0.0"
+  - "1.9.3"
+env:
+  - DB=sqlite
+script:
+  - bundle install
+  - ruby test/test_difference.rb
